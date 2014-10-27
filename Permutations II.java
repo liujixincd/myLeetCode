@@ -10,7 +10,7 @@ public class Solution {
         }
         Arrays.sort(num);
         helper(res, new ArrayList<Integer>(), num, new boolean[num.length]);
-        return res;
+     return res;
     }
     public void helper(ArrayList<List<Integer>> res, ArrayList<Integer> list, int[] num, boolean[] used) {
         if (list.size() == num.length) {

@@ -41,4 +41,5 @@ public class Solution {
         res.add(insertIdx, newInterval);
         return res;
     }
+
 }
